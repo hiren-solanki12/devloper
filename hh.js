@@ -13,6 +13,7 @@ var options = {
   label: '🌓', // default: ''
   autoMatchOsTheme: true // default: true
 }
+// this is my edit
 const darkmode =new Darkmoad(opitions);
 //darkmode.showWidget();
 
