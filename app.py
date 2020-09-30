@@ -23,8 +23,12 @@ def medium():
 
 @app.route("/simple")
 def simple():
-    return render_template('simple.html')
-
+    return render_template('simple.html')@app.route("/puzzles")
+def vishal():
+    return render_template('puzzles.html')
+@app.route("/puzzles")
+def kano():
+    return render_template('puzzles.html')
 
 @app.route("/hard")
 def hard():
