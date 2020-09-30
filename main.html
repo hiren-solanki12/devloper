@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% block head %}
+<title>HOME PAGE</title>
+
+{% endblock %}
+
+{% block body %}
+<div class="card mb-3">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src='static/kk.webp' class="card-img" width="200" height="500">
+    </div>
+    <div class="col-md-8" >
+      <div class="card-body">
+        <h2 class="card-title" style="color: blue;">chess Tactics</h2>
+        <p class="card-text">If you want to improve your game the fastest, easiest and most fun way, start solving tactics puzzles right now.</p>
+<br>
+<p class="card-text">One thing that is absolutely undisputed in chess training philosophy is: solve tactical chess puzzles regularly and you'll get better and better everyday.</p>
+      <br>
+        <br>
+        <a href='/simple' target="_blank" class="myButton">Start Training!</a>
+        <br>
+        <br>
+        <p class="card-text"> 1.Thousands of tactical problems from real games</p>
+          <p class="card-text">
+2.Track your performance in real time</p>
+        <p class="card-text"> 3.Compare your strength to other tacticians.
+        </p>
+        <p class="card-text"> 4.Have fun while you improve your chess!</p>
+        <p class="card-text">5.Train your abilities facing chess studies from the most complete database of problems, created by the greatest composers.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<br>
+
+<div class="row row-cols-1 row-cols-md-3">
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="static/easy.jpeg" class="card-img-top" width="500" height="300">
+      <div class="card-body">
+        <h5 class="card-title">LOW LEVEL</h5>
+        <p class="card-text">here many type of puzzle if you want to see than press button.</p>
+         <a href="/puzzles" target="_blank" class="myButton">Start Training!</a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src="static/medium.jpeg" class="card-img-top" width="500" height="300">
+      <div class="card-body">
+        <h5 class="card-title">MEDIUM LEVEL</h5>
+        <p class="card-text">there are many type of bissop puzzle tap to button.</p>
+         <a href='/medium' target="_blank" class="myButton">Start Training!</a>
+      </div>
+    </div>
+  </div>
+  <div class="col mb-4">
+    <div class="card h-100">
+      <img src='static/hard.jpeg' class="card-img-top" width="500" height="300">
+      <div class="card-body">
+        <h5 class="card-title">HARD LEVEL</h5>
+        <p class="card-text">there are many hard level puzzle tap a button</p>
+         <a href='/hard' target="_blank" class="myButton">Start Training!</a>
+      </div>
+    </div>
+  </div>
+</div>
+  {% endblock %}
