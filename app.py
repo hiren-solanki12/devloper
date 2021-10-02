@@ -13,16 +13,26 @@ def hello():
 def hiru():
     return render_template('add outhre.html')
 @app.route("/puzzles")
-def puzzle():
+def puzzles():
     return render_template('puzzles.html')
 
 @app.route("/medium")
-def medium():
+def mediums():
     return render_template('medium.html')
+def hellomain():
+    return render_template('main.html')
+# ,methods=['GET','POST']
+
+@app.rought(/'puzzle')
+def hiruss():
+    return render_template('add outhre.html')
+@app.route("/puzzles")
+def puzzle():
+    return render_template('puzzles.html')
 
 
-@app.route("/simple")
-def simple():
+@app.routes("/simple")
+def simples():
     return render_template('simple.html')
 
 
